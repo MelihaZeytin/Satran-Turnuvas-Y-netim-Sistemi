@@ -506,8 +506,6 @@ def carpraz_tablo_yazdir(oyuncular, turlar):
         print(format(oyuncu[1][10], '5.2f'), end='   ')
         print(format(oyuncu[1][7], '2'))
 
-
-# main fonksiyon
 def main():
     oyuncular = []  # tüm oyuncuların bilgilerinin saklanması için boş bir liste oluşturulur
     lisans_numarasi = lisans_numarasi_al(oyuncular)  # ilk oyunun lisans numrası alınır
@@ -627,6 +625,4 @@ def main():
     nihai_siralama_yazdir(oyuncular_puanlara_gore_siralanmis)
     carpraz_tablo_yazdir(oyuncular_siralanmis, turlar)
 
-
-# main fonksiyonu çağır
 main()
