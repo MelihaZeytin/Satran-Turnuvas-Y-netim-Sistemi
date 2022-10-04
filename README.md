@@ -1,0 +1,1 @@
+# Satran-Turnuvas-Y-netim-Sistemi
